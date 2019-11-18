@@ -1,0 +1,452 @@
+$bg-color: #f1f1f1;
+$font: 'Montserrat',sans-serif !important;
+$center-text: center;
+$light-gray: #efefef;
+$light-font: 300;
+$regular-font: 400;
+$medium-font: 500;
+$h1-font: 3rem;
+$font-color-primary: #4d4d4d;
+nav {
+    background: $light-gray;
+    box-shadow: 0 0px 3px rgba(0,0,0,0.3);
+    height: 74px;
+}
+body {
+    background: $bg-color;
+    font-family: $font;
+}
+.wrapper h1 {
+    color: #5e3a3a;
+    font-weight: $light-font;
+    text-align: $center-text;
+    padding-top: 3rem;
+}
+p {
+    font-size: 0.75rem;
+    color: #808080;
+    font-weight: $medium-font;
+    text-align: $center-text;
+}
+.title-text {
+    font-size: 1.6rem;
+    color: $font-color-primary;
+    font-weight: $regular-font;
+}
+.describe-text {
+    font-size: 1.125rem;
+    color: $font-color-primary;
+    font-weight: $light-font;
+}
+.tabs {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tabs .tab-pane {
+    margin-left: 20px;
+}
+.tabs h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.tabs p {
+    font-size: 14px;
+}
+.tabs a {
+    font-size: 22px;
+    color: #666666;
+    text-decoration: none;
+}
+.tabs {
+    li {
+        margin-top: 1px;
+        border-bottom: 1px solid #ccc;
+        font-size: 16px;
+        color: #666666;
+        height: 64px;
+        border-left: 2px solid #f1f1f1;
+    }
+}
+.tabs {
+    li:hover {
+        background-color: #fff;
+        border-left: 2px solid #14a388;
+    }
+}
+.total-bg1 {
+    background-color: #14a388;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.total-bg2 {
+    background-color: #13bc9c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.total-bg3 {
+    background-color: #425b77;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.small-text {
+    font-size: 12px;
+    font-weight: 300;
+}
+.data-text {
+    padding-top: 10px;
+}
+.investing-btn {
+    background-color: #12d6b0;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 30px;
+}
+.investing-btn:hover {
+    color: #fff;
+}
+.donut-inner {
+    margin-top: -128px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+.donut-inner h5 {
+    margin-bottom: -5px;
+    margin-top: 0;
+}
+.donut-inner span {
+    font-size: 12px;
+}
+.donut1 {
+    color: #12d6b0;
+}
+.donut2 {
+    color: #425b77;
+}
+.canvas-small-text {
+    font-size: 10px;
+    color: #666666;
+}
+.total-text {
+    font-size: 10px;
+    color: #666666;
+    text-align: right;
+    position: absolute;
+    right: 28px;
+}
+.font-view {
+    font-size: 20px;
+    color: #bababa;
+    cursor: pointer;
+}
+.font-circle1 {
+    font-size: 12px;
+    color: #14a388;
+    padding-right: 10px;
+}
+.font-circle2 {
+    font-size: 12px;
+    color: #13bc9c;
+    padding-right: 10px;
+}
+.font-circle3 {
+    font-size: 12px;
+    color: #425b77;
+    padding-right: 10px;
+}
+.calender-icon {
+    position: absolute;
+    left: -54px;
+    top: 9px;
+}
+.rupee-icon1 {
+    position: absolute;
+    left: -58px;
+    top: 9px;
+}
+.rupee-icon {
+    position: absolute;
+    left: -42px;
+    top: 12px;
+}
+.chart-img {
+    margin-top: 0px;
+}
+@media (min-width:320px) and (max-width:480px) {
+    .tabs li {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .title-text {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .describe-text {
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+    .wrapper h1 {
+        font-size: 1.6rem;
+        padding-top: 24px;
+    }
+    .data-text {
+        text-align: center;
+    }
+    .total-bg1 {
+        margin-top: 10px;
+        padding: 8px;
+    }
+    .total-bg2 {
+        margin-top: 10px;
+        padding: 8px;
+    }
+    .total-bg3 {
+        margin-top: 10px;
+        padding: 8px;
+    }
+    .canvas-small-text {
+        text-align: center;
+    }
+    .tabs {
+        padding-bottom: 0px;
+    }
+    .total-text {
+        text-align: center;
+        position: initial;
+        padding-bottom: 10px;
+    }
+    .chart-img {
+        margin-top: 0px;
+    }
+    .calender-icon {
+        left: 27%;
+        top: 0px;
+    }
+    .calender-icon img {
+        width: 55%;
+    }
+    .rupee-icon1 {
+        left: 36%;
+        top: 0px;
+    }
+    .rupee-icon1 img {
+        width: 55%;
+    }
+    .rupee-icon {
+        left: 32%;
+        top: 0px;
+    }
+    .rupee-icon img {
+        width: 55%;
+    }
+    .investing-btn {
+        width: 100%;
+    }
+}
+@media (min-width:480px) {
+    .donut-inner {
+        margin-top: -151px;
+    }
+}
+@media (min-width:481px) and (max-width:767px) {
+    .tabs li {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .title-text {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .describe-text {
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+    .wrapper h1 {
+        font-size: 1.6rem;
+        padding-top: 24px;
+    }
+    .data-text {
+        text-align: center;
+    }
+    .total-bg1 {
+        margin-top: 10px;
+        padding: 8px;
+    }
+    .total-bg2 {
+        margin-top: 10px;
+        padding: 8px;
+    }
+    .total-bg3 {
+        margin-top: 10px;
+        padding: 8px;
+    }
+    .canvas-small-text {
+        text-align: center;
+    }
+    .tabs {
+        padding-bottom: 0px;
+    }
+    .total-text {
+        text-align: center;
+        position: initial;
+        padding-bottom: 10px;
+    }
+    .chart-img {
+        margin-top: 0px;
+    }
+    .calender-icon {
+        left: 31%;
+        top: 0px;
+    }
+    .calender-icon img {
+        width: 55%;
+    }
+    .rupee-icon1 {
+        left: 38%;
+        top: 0px;
+    }
+    .rupee-icon1 img {
+        width: 55%;
+    }
+    .rupee-icon {
+        left: 35%;
+        top: 0px;
+    }
+    .rupee-icon img {
+        width: 55%;
+    }
+    .investing-btn {
+        width: 100%;
+    }
+    .donut-inner {
+        margin-top: -145px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .wrapper h1 {
+        font-size: 1.9rem;
+        padding-top: 24px;
+    }
+    .title-text {
+        font-size: 1.2rem;
+    }
+    .describe-text {
+        font-size: 0.8rem;
+    }
+    .calender-icon {
+        left: -31px;
+        top: 0px;
+    }
+    .calender-icon img {
+        width: 55%;
+    }
+    .rupee-icon1 {
+        left: -35px;
+        top: 0px;
+    }
+    .rupee-icon1 img {
+        width: 55%;
+    }
+    .rupee-icon {
+        left: -23px;
+        top: 0px;
+    }
+    .rupee-icon img {
+        width: 55%;
+    }
+    .tabs li {
+        height: 70px;
+    }
+    .data-text {
+        padding-top: 5px;
+        font-size: 0.85rem;
+    }
+    .small-text {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .total-bg1 {
+        padding: 23px 10px;
+    }
+    .total-bg2 {
+        padding: 23px 10px;
+    }
+    .total-bg3 {
+        padding: 23px 10px;
+    }
+    .donut-inner h5 {
+        font-size: 1rem;
+    }
+    .donut-inner {
+        margin-top: -92px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1024px) {
+    .wrapper h1 {
+        font-size: 1.9rem;
+        padding-top: 24px;
+    }
+    .title-text {
+        font-size: 1.2rem;
+    }
+    .describe-text {
+        font-size: 0.8rem;
+    }
+    .calender-icon {
+        left: -31px;
+        top: 0px;
+    }
+    .calender-icon img {
+        width: 55%;
+    }
+    .rupee-icon1 {
+        left: -35px;
+        top: 0px;
+    }
+    .rupee-icon1 img {
+        width: 55%;
+    }
+    .rupee-icon {
+        left: -23px;
+        top: 0px;
+    }
+    .rupee-icon img {
+        width: 55%;
+    }
+    .tabs li {
+        height: 70px;
+    }
+    .data-text {
+        padding-top: 5px;
+        font-size: 0.85rem;
+    }
+    .small-text {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .total-bg1 {
+        padding: 23px 10px;
+    }
+    .total-bg2 {
+        padding: 23px 10px;
+    }
+    .total-bg3 {
+        padding: 23px 10px;
+    }
+    .donut-inner h5 {
+        font-size: 1rem;
+    }
+    .donut-inner {
+        margin-top: -112px;
+    }
+}
+@media only screen and (min-width:1280px) {
+  .donut-inner {
+    margin-top: -130px;
+}
+}
